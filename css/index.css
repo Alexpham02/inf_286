@@ -1,0 +1,78 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .header{
+    background: #333;
+    color: #fff;
+    padding: 0 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .name a{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav ul {
+    padding-top: 12.5px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  .nav ul li a:hover {
+    background: #8b8b8b;
+  }
+
+  .background-section {
+    background-size: cover;
+    background-position: center;
+    font-size: 30px;
+    color: #fff;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    text-align: left;
+  }
+  
+  .content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 1.5em;
+  }
+  
+  
+  
+  
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
